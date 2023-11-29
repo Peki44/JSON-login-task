@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>UserID</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let item of data">
+                <td>{{ item.userId }}</td>
+                <td>{{ item.id }}</td>
+                <td>{{ item.title }}</td>
+                <td class="bodyItem">{{ item.body }}</td>
+            </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+</div>

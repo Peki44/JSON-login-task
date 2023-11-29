@@ -1,0 +1,13 @@
+.container{
+    width: 30%;
+    height: 350px;
+    margin: 30px auto;
+    background-color: lightgrey;
+}
+h2{
+    text-align: center;
+}
+button{
+    width: 200px;
+    margin-left: 120px;
+}
